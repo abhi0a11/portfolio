@@ -1,0 +1,55 @@
+@media only screen and (max-width:375px){
+    .main {
+        background: url(images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-color: hsl(225, 100%, 94%);
+        /* background-size: 20px 20px; */
+        background-size: 100vw 35vh;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .content {
+        padding: 0;
+        border-radius: 20px;
+        /* border-top-right-radius: 20px; */
+        position: relative;
+        top: 25px;
+        background-color: white;
+        width:200px !important;
+    }
+    h4{
+        font-size: 14px;
+    }
+    .text-box{
+        font-size: 10px;
+
+    }
+    .icon {
+        position: relative;
+        right: 26px;
+        top: 5px;
+        width: 50px;
+    }
+    .mid-txt {
+        position: relative;
+        right: 40px;
+        top: 8px;
+        font-size: 7px;
+    }
+    .chg {
+        position: relative;
+        top: -12px;
+        left: 86px;
+        font-size: 9px;
+    }
+    .pay{
+        width: 180px;
+        font-size: 14px;
+    }
+    .cancel{
+        font-size: 9px;
+    }
+}
